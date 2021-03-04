@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'tt_norms';
+  src: url("fonts/tt_norms_pro_regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'tt_norms';
+  src: url("fonts/tt_norms_pro_medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'tt_norms';
+  src: url("fonts/tt_norms_pro_bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+body {
+  font-family: 'tt_norms', sans-serif; }
+
+.container {
+  padding: 10vw; }
+
+.text {
+  max-width: 900px; }
+
+.memoji {
+  font-size: 36px; }
+  .memoji .hand {
+    position: absolute;
+    font-size: 13px;
+    margin: 23px 0 0 -15px; }
+
+h1 {
+  font-size: 100px;
+  letter-spacing: -0.2vw;
+  margin: 0;
+  font-weight: 700; }
+
+p {
+  font-size: 24px;
+  line-height: 1.54;
+  font-weight: 400; }
+
+a {
+  color: inherit;
+  font-weight: 500;
+  display: inline-block;
+  border-bottom: solid 3px #000;
+  text-decoration: none; }
+  a:hover, a:focus {
+    color: #3d1eff;
+    border-color: #3d1eff; }
